@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table, th ,td{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+}
+table{
+    
+    margin: 50px auto;
+}

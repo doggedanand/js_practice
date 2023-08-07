@@ -62,7 +62,7 @@ function decryptRotChiper(rotatedWord, rotation) {
   var reverseWord = startWord.substring(rotation) + startWord.substring(0, rotation);
 
   // Rotate the startWord again to get the original startWord
-  var againReverseWord = startWord.substring(rotation) + startWord.substring(0, rotation);
+  var againReverseWord = startWord.substring(26-rotation) + startWord.substring(0, 26-rotation);
 
   var reversed = '';
 
